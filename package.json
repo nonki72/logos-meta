@@ -1,15 +1,29 @@
 {
-  "name": "logos-meta",
+  "name": "logosmeta",
   "version": "1.0.0",
-  "description": "A Logos Meta bot",
-  "main": "app.js",
+  "description": "<h1 align=\"center\">🔥 Welcome Brave Developer! 🔥</h1>",
+  "main": "index.js",
   "scripts": {
+    "start": "cd messenger-api/messenger-api-with-nodejs/javascript-version && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "Jordan Cote",
-  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "./messenger-api/messenger-api-with-nodejs/javascript-version/*"
+  ],
+  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.18.2"
-  }
+    "dotenv": "^16.0.3",
+    "node-fetch": "^2.6.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nonki72/logos-meta.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nonki72/logos-meta/issues"
+  },
+  "homepage": "https://github.com/nonki72/logos-meta#readme"
 }
